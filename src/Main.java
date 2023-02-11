@@ -117,9 +117,9 @@ public class Main {
 
     public static void task8() {
         System.out.println("Задача 8");
-        int start = 2323 - 200;
+        int star_t = 2323 - 200;
         int end = 2023 + 100;
-        for (  int year= start; start<= end; year++ ){
+        for (  int year= star_t; star_t<= end; year++ ){
             if (year%79==0){
                 System.out.println(year);
             }
